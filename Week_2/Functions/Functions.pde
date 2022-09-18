@@ -1,4 +1,4 @@
-//DATT 2040
+//DATT 2400
 //creating our own functions
 void setup(){
   size(500,500);
