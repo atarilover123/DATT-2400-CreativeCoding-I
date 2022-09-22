@@ -19,3 +19,7 @@ you can make headings of different sizes by prefacing text with "#"
 # text "#"
 ## text "##"
 
+This is what the behind the scenes edit of the readme looks like. 
+
+<img src="https://raw.githubusercontent.com/atarilover123/DATT-2400-CreativeCoding-I/main/Github%20Example/Screen%20Shot%202022-09-22%20at%205.53.56%20AM.png" width="800">
+
