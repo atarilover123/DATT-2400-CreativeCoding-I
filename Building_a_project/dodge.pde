@@ -7,17 +7,24 @@ class Dodge {
   float limit;
 
   PVector mouse;
-  
-  
+
+  float rad;
+  float radgrow;
+
 
   Dodge() {
 
     loc = new PVector(random(width), random(height));
     vel = new PVector(0, 0);
     limit = random(5, 25);
+
+    rad = random(5, 45);
+    radgrow = random(0.3);
   }
 
   void drawball() {
+
+    rad+=radgrow;
 
     mouse = new PVector(mouseX, mouseY);
     PVector acc = PVector.sub(mouse, loc);
@@ -50,8 +57,6 @@ class Dodge {
     float y = (loc.y);
     fill(255);
     noStroke();
-    ellipse(x, y, 35, 35);
+    ellipse(x, y, rad, rad);
   }
 }
-
-
